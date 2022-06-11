@@ -1,20 +1,11 @@
-/*------ Arduino Fire Fighting Robot Code----- */
-
- 
 
 #include <Servo.h>
 
 Servo myservo;
 
- 
-
 int pos = 0;    
 
 boolean fire = false;
-
- 
-
-/*-------defining Inputs------*/
 
 #define Left_S 9      // left sensor
 
